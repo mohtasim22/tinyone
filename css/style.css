@@ -1,0 +1,248 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'PT Sans', sans-serif;
+
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+/***************************************
+            Main CSS starts
+****************************************/
+
+/* Header-Section */
+
+.header-section{
+  width: 100%;
+  background: #fcdb00;
+  padding-bottom: 40px;
+}
+.header-section .bg-light{
+  width: 100%;
+  background: transparent !important;
+  padding: 40px 0px;
+}
+.header-section .navbar-nav{
+	margin-right: 8%;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 60px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+  color: #898989;
+}
+.header-section .text-inner{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.header-section .text-inner h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.header-section .text-inner h3{
+  color: #313841;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.header-section .text-inner p{
+  color: #313841;
+  font-size: 16px;
+}
+.header-section .img-inner{
+  text-align: center;
+  margin-top: 25px;
+}
+.header-section .icons{
+
+}
+.header-section ul{
+  list-style: none;
+}
+.header-section ul li{
+  display: inline-block;
+}
+.header-section .icons ul li:nth-child(2) .fa{
+  margin: 0px 28px;
+}
+.header-section .fa{
+  color: black;
+  font-size: 40px;
+  
+}
+.header-section .fa:hover{
+  color: #898989;
+  
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 30px !important;
+}
+button:focus {
+  outline: none;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span  {
+  background: white !important ;
+}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1.4 !important ;
+  margin-top: 15px;
+}
+.owl-theme .owl-dots .owl-dot span {
+  margin: 5px 4px !important;
+  background: #feed80 !important;
+}
+
+/* Feature Section */
+.feature-section{
+  width: 100%;
+  margin: 30px 0px 45px;
+}
+.feature-section .title-inner{
+  width: 100%;
+  text-align: center;
+  padding: 80px 0px 60px;
+}
+.feature-section .title-inner h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.feature-section .title-inner p{
+  color: #313841;
+  font-size: 20px;
+}
+.feature-section .img-inner {
+  width: 90px;
+  text-align: center;
+}
+.media {
+  margin-bottom: 60px;
+}
+.feature-section .media h5{
+  font-size: 22px;
+  font-weight: 700;
+}
+.feature-section .media p{
+  color: #313841;
+  font-size: 16px;
+}
+
+/* Top Footer */
+.top-footer{
+  width: 100%;
+  background-color: black;
+  padding: 0px 0px 45px;
+}
+.top-footer .title-inner{
+  width: 100%;
+  text-align: center;
+  padding: 80px 0px 20px;
+}
+.top-footer .title-inner h2{
+  color: #fcdb00;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.top-footer .title-inner p{
+  color: #898989;
+  font-size: 16px;
+}
+.top-footer .form-inner{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.top-footer .form-inner .form-grp{
+  width: 80%;
+  float: left;
+}
+.top-footer .form-inner .button{
+  width: 20%;
+  float: left;
+}
+.top-footer .form-inner .form-grp .form-control {
+  display: inline-block;
+  width: 100%;
+  padding: 22px 25px;
+  color: #898989;
+  font-size: 18px;
+}
+.top-footer .btn-info {
+  background: #fcdb00;
+  border: 2px solid #fcdb00;
+  padding: 9px 29px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.top-footer .btn-info:hover{
+  background: transparent;
+  border: 2px solid #fcdb00;
+  color: #fcdb00;
+}
+.top-footer .icons{
+  text-align: center;
+}
+.top-footer ul{
+  list-style: none;
+}
+.top-footer ul li{
+  display: inline-block;
+} 
+.top-footer .icons ul li:nth-child(2) .fa{
+  margin: 0px 28px;
+}
+.top-footer .icons ul li:nth-child(3) .fa{
+  margin-right: 28px;
+}
+.top-footer .fa{
+  color: #fcdb00;
+  font-size: 40px;
+}
+.top-footer .fa:hover{
+  color: #feed80
+}
+.top-footer .bottom-footer{
+  padding: 100px 0px 80px;
+}
+.top-footer .add-inner{
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.top-footer .add-inner h6{
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+.top-footer .nav-link{
+  color:white;
+  padding: 0px;
+  font-weight: 600;
+  padding-left: 35%;
+}
+.top-footer .nav-link:hover{
+  color:#fcdb00;
+}
